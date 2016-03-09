@@ -1,0 +1,7 @@
+*.log
+*.out
+.idea/
+/.idea/*
+/node_modules/*
+/config/config.json
+/public/bower/*
