@@ -1,4 +1,30 @@
-<!DOCTYPE html>
+<!DOCTYPE html><div class="input-box">
+                <label for="email">请输入一个邮箱地址</label>
+                <input type="text" id="email" name="email" value="" placeholder="这是一个文本输入框">
+                <div class="error-text">请输入一个有效邮箱！</div>
+              </div>
+              <div class="input-box">
+                <label for="password">请输入密码</label>
+                <input type="text" id="password" name="password" value="" placeholder="这是一个文本输入框">
+                <label for="re_password">请重复输入密码</label>
+                <input type="text" id="re_password" name="re_password" value="" placeholder="这是一个文本输入框">
+                <div class="error-text">密码请为6-16位英文数字</div>
+              </div>
+              <div class="input-box">
+                <label for="sex">性别:</label>
+                <input name="sex" type="radio" value="0" seletced>男</input>
+                <input name="sex" type="radio" value="1">女</input>
+                <label for="city">城市:</label>
+                <select>
+                    <option selected="">北京</option>
+                </select>
+                <label for="favorite">爱好:</label>
+                <input type="checkbox" name="favorite" value="0">运动</input>
+                <input type="checkbox" name="favorite" value="0">艺术</input>
+                <input type="checkbox" name="favorite" value="0">科学</input>
+                <label for="">个人介绍:</label>
+                <textarea>这是一个多行输入框，输入您的个人描述</textarea>
+              </div>
 <html>
   <head>
     <meta charset="utf-8">
@@ -146,33 +172,35 @@
         <div class="register">
           <h2>侧栏注册窗口标题</h2>
           <div class="sidebar content">
-            <div class="input-box">
-              <label for="email">请输入一个邮箱地址</label>
-              <input type="text" id="email" name="email" value="" placeholder="这是一个文本输入框">
-              <div class="error-text">请输入一个有效邮箱！</div>
-            </div>
-            <div class="input-box">
-              <label for="password">请输入密码</label>
-              <input type="text" id="password" name="password" value="" placeholder="这是一个文本输入框">
-              <label for="re_password">请重复输入密码</label>
-              <input type="text" id="re_password" name="re_password" value="" placeholder="这是一个文本输入框">
-              <div class="error-text">密码请为6-16位英文数字</div>
-            </div>
-            <div class="input-box">
-              <label for="sex">性别:</label>
-              <input name="sex" type="radio" value="0" seletced>男</input>
-              <input name="sex" type="radio" value="1">女</input>
-              <label for="city">城市:</label>
-              <select>
-                  <option selected="">北京</option>
-              </select>
-              <label for="favorite">爱好:</label>
-              <input type="checkbox" name="favorite" value="0">运动</input>
-              <input type="checkbox" name="favorite" value="0">艺术</input>
-              <input type="checkbox" name="favorite" value="0">科学</input>
-              <label for="">个人介绍:</label>
-              <textarea>这是一个多行输入框，输入您的个人描述</textarea>
-            </div>
+            <form class="" action="index.html" method="post">
+              <div class="input-box">
+                <label for="email">请输入一个邮箱地址</label>
+                <input type="text" id="email" name="email" value="" placeholder="这是一个文本输入框">
+                <div class="error-text">请输入一个有效邮箱！</div>
+              </div>
+              <div class="input-box">
+                <label for="password">请输入密码</label>
+                <input type="text" id="password" name="password" value="" placeholder="这是一个文本输入框">
+                <label for="re_password">请重复输入密码</label>
+                <input type="text" id="re_password" name="re_password" value="" placeholder="这是一个文本输入框">
+                <div class="error-text">密码请为6-16位英文数字</div>
+              </div>
+              <div class="input-box">
+                <label for="sex">性别:</label>
+                <input name="sex" type="radio" value="0" seletced>男</input>
+                <input name="sex" type="radio" value="1">女</input>
+                <label for="city">城市:</label>
+                <select>
+                    <option selected="">北京</option>
+                </select>
+                <label for="favorite">爱好:</label>
+                <input type="checkbox" name="favorite" value="0">运动</input>
+                <input type="checkbox" name="favorite" value="0">艺术</input>
+                <input type="checkbox" name="favorite" value="0">科学</input>
+                <label for="">个人介绍:</label>
+                <textarea>这是一个多行输入框，输入您的个人描述</textarea>
+              </div>
+            </form>
           </div>
         </div>
       </div>
