@@ -57,12 +57,13 @@ header .header_right .header_search_area .header_search_btn i {
   font-size: 1.4rem;
 }
 header .header_right .header_search_area input {
-  width: 170px;
+  width: 265px;
   height: 100%;
   border: none;
   outline: none;
   font-size: 1.4rem;
   overflow: hidden;
+  float: left;
 }
 header .header_right .header_sign_in {
   font-size: 1.2rem;
@@ -83,34 +84,56 @@ nav#left_nav {
 nav#left_nav div.nav_top {
   width: 100%;
   height: 150px;
+  padding-top: 15px;
 }
 nav#left_nav div.nav_top div.nav_head {
   height: 80px;
   width: 100%;
   line-height: 80px;
+  margin-bottom: 15px;
 }
 nav#left_nav div.nav_top div.nav_head img {
   margin: 0 20px;
-  height: 40px;
-  width: 40px;
+  height: 80px;
+  width: 80px;
   vertical-align: middle;
 }
 nav#left_nav div.nav_top div.nav_head span.nav_username {
-  color: #fff;
+  color: #ddd;
   vertical-align: middle;
   font-size: 1.4rem;
 }
 nav#left_nav div.nav_top div.nav_user_info {
   width: 100%;
   height: 50px;
-  line-height: 50px;
   text-align: center;
 }
+nav#left_nav div.nav_top div.nav_user_info div.nav_user_fans,
 nav#left_nav div.nav_top div.nav_user_info div.nav_user_collection {
   width: 50%;
   float: left;
 }
-nav#left_nav div.nav_top div.nav_user_info div.nav_user_fans {
-  width: 50%;
-  float: left;
+nav#left_nav div.nav_top div.nav_user_info div.nav_user_fans p,
+nav#left_nav div.nav_top div.nav_user_info div.nav_user_collection p {
+  color: #666;
+  font-size: 1.4rem;
+}
+nav#left_nav div.nav_top div.nav_user_info div.nav_user_fans p:first-child,
+nav#left_nav div.nav_top div.nav_user_info div.nav_user_collection p:first-child {
+  font-size: 1.8rem;
+}
+nav#left_nav div.nav_lists ul {
+  display: inline-block;
+  padding-left: 15px;
+  width: 100%;
+}
+nav#left_nav div.nav_lists ul li {
+  list-style: none;
+  display: inline-block;
+  width: 100%;
+}
+nav#left_nav div.nav_lists ul li a {
+  text-decoration: none;
+  color: #ddd;
+  font-size: 1.6rem;
 }

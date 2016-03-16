@@ -1,24 +1,29 @@
+
 nav#left_nav {
+	@font_color: #ddd;
+
 	width: 260px;
 	height: 100%;
 	background-color: rgb(24,42,46);
 	div.nav_top {
 		width: 100%;
 		height: 150px;
+		padding-top: 15px;
 
 		div.nav_head {
 			height: 80px;
 			width: 100%;
 			line-height: 80px;
+			margin-bottom: 15px;
 
 			img{
 				margin: 0 20px;
-				height: 40px;
-				width: 40px;
+				height: 80px;
+				width: 80px;
 				vertical-align: middle;
 			}
 			span.nav_username {
-				color: #fff;
+				color: @font_color;
 				vertical-align: middle;
 				font-size: 1.4rem;
 			}
@@ -26,17 +31,41 @@ nav#left_nav {
 		div.nav_user_info {
 			width: 100%;
 			height: 50px;
-			line-height: 50px;
 			text-align: center;
-			div.nav_user_collection {
+			
+			div.nav_user_fans, div.nav_user_collection {
 				width: 50%;
 				float: left;
-			}
-			div.nav_user_fans {
-				width: 50%;
-				float: left;
+				p{
+					color: #666;
+					font-size: 1.4rem;
+					&:first-child{
+						font-size: 1.8rem;
+					}
+				}
 			}
 
 		}
+	}
+
+	div.nav_lists {
+		ul {
+			display: inline-block;
+			padding-left: 15px;
+			width: 100%;
+
+			li{
+				list-style: none;
+				display: inline-block;
+				width: 100%;
+
+				a{
+					text-decoration: none;
+					color: @font_color;
+					font-size: 1.6rem
+				}
+			}
+		}
+		
 	}
 }
