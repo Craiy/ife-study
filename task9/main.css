@@ -98,4 +98,19 @@ nav#left_nav div.nav_top div.nav_head img {
 nav#left_nav div.nav_top div.nav_head span.nav_username {
   color: #fff;
   vertical-align: middle;
+  font-size: 1.4rem;
+}
+nav#left_nav div.nav_top div.nav_user_info {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+nav#left_nav div.nav_top div.nav_user_info div.nav_user_collection {
+  width: 50%;
+  float: left;
+}
+nav#left_nav div.nav_top div.nav_user_info div.nav_user_fans {
+  width: 50%;
+  float: left;
 }
