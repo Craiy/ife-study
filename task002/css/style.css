@@ -1,0 +1,95 @@
+body {
+  background-color: #dedede;
+  padding: 0;
+  margin: 0;
+  font-family: "Microsoft YaHei UI", sans-serif;
+}
+.sm-4 {
+  width: 40%;
+}
+.sm-6 {
+  width: 60%;
+}
+.title-grey {
+  color: #505050;
+}
+.title-blockquote {
+  border-left: 5px solid #505050;
+  padding-left: 10px;
+}
+header {
+  height: 55px;
+  background-color: #505050;
+}
+header a {
+  color: #ffffff;
+  text-decoration: none;
+}
+header a:hover {
+  color: #dedede;
+}
+header img {
+  margin: 5px 20px 0px 20px;
+  float: left;
+  height: 40px;
+  width: 120px;
+}
+header ul {
+  float: right;
+  margin-right: 20px;
+  list-style-type: decimal;
+}
+header li {
+  margin-left: 8px;
+  display: inline-block;
+}
+.container {
+  padding: 30px;
+}
+article {
+  margin: 0 0 20px 0;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 0 #494949;
+}
+article ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+p {
+  text-indent: 35px;
+}
+.img-box li{
+  border: 1px solid #505050;
+  height: 130px;
+  width: 120px;
+  font-size: 15px;
+  text-align: center;
+  margin: 20px 0 20px 40px;
+}
+.img-box img {
+  height: 100px;
+  width: 100px;
+  margin: auto;
+}
+.sidebar {
+  margin: 0 0 20px 0;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 0 #494949;
+}
+footer {
+  line-height: 55px;
+  text-align: center;
+  height: 55px;
+  background-color: #505050;
+}
+.input-box {
+  width: 100%;
+  display: block;
+}
+label {
+  display: inline-block;
+  float: left;
+  text-align: right;
+}
