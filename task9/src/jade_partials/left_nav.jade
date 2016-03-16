@@ -1,4 +1,31 @@
+- var nav_titles = [{'name': '个人报表','icon': '','children':[{'name': '文件一','icon': '','children':[{'name': '文档1','icon': ''},{'name':'文档2','icon':''}]},{'name':'文件二','icon':'','children':[{'name':'文档1','icon':''},{'name':'文档1','icon':''}]},{'name':'文件三','icon':''}]},{'name': '个人收藏','icon': ''},{'name': '我的分享','icon': ''},{'name': '图库','icon': ''},{'name': '成长记录','icon': ''},{'name': '账户信息','icon': ''}]
+
 //- navigations
-nav
-	section
+nav#left_nav
+	div.nav_top
+		div.nav_head
+			img(src='./images/')
+			span.nav_username ABC123
+		div.nav_user_info
+			div.nav_user_collection
+				span.nav_user_collection_num
+				span 收藏
+			div.nav_user_fans
+				span.nav_user_fans_num
+				span 粉丝
+	div.nav_lists
+		ul
+			each nav in nav_titles
+				li
+					a(href='javascript:void(0)')= nav.name
+				if nav.children
+					ul
+					each sub_nav in nav.children
+						li
+							a(href='javascript:void(0)')= sub_nav.name
+						if sub_nav.children
+							ul
+							each sub_sub_nav in sub_nav.children
+								li
+									a(href='javascript:void(0)')= sub_sub_nav.name
 		

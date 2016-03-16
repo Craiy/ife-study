@@ -1,0 +1,12 @@
+*.pyc
+nohup.out
+*.csv
+app.log
+*.log
+*.out
+appdata/
+sessiondata/
+.idea
+*log
+Dockerfile
+/node_modules
