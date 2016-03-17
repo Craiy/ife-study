@@ -4,11 +4,13 @@ body {
   margin: 0;
   font-family: "Microsoft YaHei UI", sans-serif;
 }
-.sm-4 {
-  width: 40%;
+.col-4 {
+  width: 33.33333333%;
+  float: left;
 }
-.sm-6 {
-  width: 60%;
+.col-6 {
+  width: 50%;
+  float: left;;
 }
 .title-grey {
   color: #505050;
@@ -78,18 +80,23 @@ p {
   background-color: #ffffff;
   box-shadow: 2px 2px 0 #494949;
 }
+.input-box {
+  display: block;
+}
+label {
+  text-align: right;
+  margin: 5px 0;
+  padding-right: 5px;
+}
+.input-box input {
+  margin: 5px 0;
+}
+.error-text {
+  margin: 15px 0;
+}
 footer {
   line-height: 55px;
   text-align: center;
   height: 55px;
   background-color: #505050;
-}
-.input-box {
-  width: 100%;
-  display: block;
-}
-label {
-  display: inline-block;
-  float: left;
-  text-align: right;
 }
