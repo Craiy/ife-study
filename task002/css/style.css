@@ -4,7 +4,6 @@ body {
   margin: 0;
   font-family: "Microsoft YaHei UI", sans-serif;
 }
-<<<<<<< HEAD
 .col-4 {
   width: 33.33333333%;
   float: left;
@@ -12,13 +11,6 @@ body {
 .col-6 {
   width: 50%;
   float: left;;
-=======
-.sm-4 {
-  width: 40%;
-}
-.sm-6 {
-  width: 60%;
->>>>>>> master
 }
 .title-grey {
   color: #505050;
@@ -88,7 +80,6 @@ p {
   background-color: #ffffff;
   box-shadow: 2px 2px 0 #494949;
 }
-<<<<<<< HEAD
 .input-box {
   display: block;
 }
@@ -103,23 +94,9 @@ label {
 .error-text {
   margin: 15px 0;
 }
-=======
->>>>>>> master
 footer {
   line-height: 55px;
   text-align: center;
   height: 55px;
   background-color: #505050;
 }
-<<<<<<< HEAD
-=======
-.input-box {
-  width: 100%;
-  display: block;
-}
-label {
-  display: inline-block;
-  float: left;
-  text-align: right;
-}
->>>>>>> master
