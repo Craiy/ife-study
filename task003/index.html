@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>任务三：三栏式布局</title>
+	<style>
+	* {
+		margin: 0px;
+		padding: 0px;
+		font-family: "Arial","Microsoft YaHei",sans-serif;
+	}
+	img {
+		width: 80px;
+		height: 80px;
+	}
+	body {
+		padding: 20px;
+	}
+	div{
+		box-sizing: border-box;
+	}
+	.main,.left,.intro {
+		padding:20px;
+		border:1px solid #999;
+	}
+	.main {
+		background-color: #eee;
+	}
+	.left {
+		width: 200px;
+		float: left;
+		background-color: #fff;
+	}
+	.team-name {
+		margin-left: 5px;
+		display: inline-block;
+	}
+	.right {
+		width: 120px;
+		float: right;
+		padding: 10px;
+		background-color: #fff;
+		border: 1px solid #999;
+	}
+	.right img {
+		margin: 10px;
+	}
+	.intro {
+		margin: 0 140px 0 220px;
+		padding: 20px;
+		background-color: #fff;
+		border: 1px solid #999;
+	}
+	.intro p {
+		margin-top: 10px;
+		line-height: 170%;
+		text-indent: 2em;
+	}
+	.clearitem{
+		clear: both;
+	}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div class="left">
+			<img class="team-logo" src="img/logo.jpg" alt="team-logo">
+			<div class="team-name">编程新手</div>
+		</div>
+		<div class="right">
+			<img class="logo" src="img/a.jpg" alt="">
+			<img class="logo" src="img/a.jpg" alt="">
+			<img class="logo" src="img/a.jpg" alt="">
+			<img class="logo" src="img/a.jpg" alt="">
+		</div>
+		<div class="intro">
+			<h4>我们是编程新手~</h4>
+			<p>然而并没有写长长的团队介绍然而并没有写长长的团队介绍然而并没有写长长的团队介绍然而并没有写长长的团队介绍然而并没有写长长的团队介绍然而并没有写长长的团队介绍然而并没有写长长的团队介绍然而并没有写长长的团队介绍然而并没有写长长的团队介绍。
+			</p>
+		</div>
+		<div class="clearitem"></div>
+	</div>
+</body>
+</html>
